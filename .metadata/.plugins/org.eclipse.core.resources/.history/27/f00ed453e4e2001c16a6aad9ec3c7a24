@@ -1,0 +1,63 @@
+package co.edu.uco.quotes.dto;
+
+import java.util.List;
+
+public class EmployeeDTO {
+	
+	private int id;
+	private String name;
+	private IdTypeDTO idType;
+	private String idNumber;
+	private EmployeeTypeDTO empleType;
+	private EmployeeStatusDTO employeeStatus;
+	private CampusDTO campus;
+	
+	
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public IdTypeDTO getIdType() {
+		return idType;
+	}
+	public void setIdType(IdTypeDTO idType) {
+		this.idType = idType;
+	}
+	public String getIdNumber() {
+		return idNumber;
+	}
+	public void setIdNumber(String idNumber) {
+		this.idNumber = idNumber;
+	}
+	
+	public EmployeeStatusDTO getEmployeeStatus() {
+		return employeeStatus;
+	}
+	public void setEmployeeStatus(EmployeeStatusDTO employeeStatus) {
+		this.employeeStatus = employeeStatus;
+	}
+	public CampusDTO getCampus() {
+		return campus;
+	}
+	public void setCampus(CampusDTO campus) {
+		this.campus = campus;
+	}
+	public EmployeeTypeDTO getEmpleType() {
+		return empleType;
+	}
+	public void setEmpleType(EmployeeTypeDTO empleType) {
+		this.empleType = empleType;
+	}
+	
+	
+	
+	
+}

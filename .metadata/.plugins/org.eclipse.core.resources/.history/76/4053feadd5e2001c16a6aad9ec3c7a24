@@ -1,0 +1,11 @@
+package co.edu.uco.quotes.dto;
+
+public class CampusDTO {
+	
+	private int codigo;
+	private String nombre;
+	private Ciudad ciudad;
+	
+	
+
+}
