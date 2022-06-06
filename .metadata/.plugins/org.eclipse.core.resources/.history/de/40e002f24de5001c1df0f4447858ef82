@@ -1,0 +1,10 @@
+package co.edu.uco.quotes.data.dao;
+
+import co.edu.uco.quotes.dto.QuotationTypeDTO;
+
+public interface QuotationTypeDAO {
+	void create(QuotationTypeDTO quotationType);
+	void update(QuotationTypeDTO quotationType);
+	void delete(int id);
+	void find (QuotationTypeDTO quotationType);
+}

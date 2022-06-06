@@ -1,0 +1,10 @@
+package co.edu.uco.quotes.data.dao;
+
+import co.edu.uco.quotes.dto.InventoryDTO;
+
+public interface InventoryDAO {
+	void create(InventoryDTO inventory);
+	void update(InventoryDTO inventory);
+	void delete(int id);
+	void find (InventoryDTO inventory);
+}

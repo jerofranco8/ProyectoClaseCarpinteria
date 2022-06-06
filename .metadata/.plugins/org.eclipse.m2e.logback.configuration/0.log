@@ -378,3 +378,528 @@
 2022-06-02 23:00:38,367 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2022-06-02 23:00:38,373 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DTOQuotes\src\test\resources
 2022-06-02 23:01:14,131 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-06-05 11:25:54,501 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-06-05 11:26:12,115 [Worker-2: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCuttingQuotes: co.edu.uco.quotes:CrossCuttingQuotes:0.0.1-SNAPSHOT with classifier  to /CrossCuttingQuotes/target/classes
+2022-06-05 11:26:12,124 [Worker-2: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutting: co.edu.uco.crosscutting:CrossCutting:0.0.1-SNAPSHOT with classifier  to /CrossCutting/target/classes
+2022-06-05 11:26:13,162 [Worker-2: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 11:26:13,163 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DTOQuotes\src\main\resources
+2022-06-05 11:26:13,165 [Worker-2: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 11:26:13,166 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DTOQuotes\src\test\resources
+2022-06-05 11:26:26,067 [Worker-12: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 11:26:26,068 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DTOQuotes\src\main\resources
+2022-06-05 11:26:26,070 [Worker-12: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 11:26:26,071 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DTOQuotes\src\test\resources
+2022-06-05 11:52:47,790 [Worker-23: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 11:52:47,792 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DTOQuotes\src\main\resources
+2022-06-05 11:52:47,795 [Worker-23: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 11:52:47,796 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DTOQuotes\src\test\resources
+2022-06-05 12:00:58,794 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 12:00:58,795 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\Proyecto clase carlos\GestionAcademica-master\CrossCutting\src\main\resources
+2022-06-05 12:00:58,797 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 12:00:58,798 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\Proyecto clase carlos\GestionAcademica-master\CrossCutting\src\test\resources
+2022-06-05 12:00:58,821 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 12:00:58,822 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DTOQuotes\src\main\resources
+2022-06-05 12:00:58,823 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 12:00:58,824 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DTOQuotes\src\test\resources
+2022-06-05 12:06:17,145 [Worker-22: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 12:06:17,146 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DTOQuotes\src\main\resources
+2022-06-05 12:06:17,147 [Worker-22: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 12:06:17,147 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DTOQuotes\src\test\resources
+2022-06-05 12:08:51,317 [Worker-22: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 12:08:51,318 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DTOQuotes\src\main\resources
+2022-06-05 12:08:51,319 [Worker-22: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 12:08:51,320 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DTOQuotes\src\test\resources
+2022-06-05 12:09:57,539 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 12:09:57,540 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DTOQuotes\src\main\resources
+2022-06-05 12:09:57,542 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 12:09:57,543 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DTOQuotes\src\test\resources
+2022-06-05 12:10:04,656 [Worker-27: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 12:10:04,657 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\Proyecto clase carlos\GestionAcademica-master\CrossCutting\src\main\resources
+2022-06-05 12:10:04,658 [Worker-27: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 12:10:04,658 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\Proyecto clase carlos\GestionAcademica-master\CrossCutting\src\test\resources
+2022-06-05 12:13:49,959 [Worker-26: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 12:13:49,960 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DTOQuotes\src\main\resources
+2022-06-05 12:13:49,962 [Worker-26: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 12:13:49,962 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DTOQuotes\src\test\resources
+2022-06-05 13:13:07,050 [Worker-29: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 13:13:07,064 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DTOQuotes\src\main\resources
+2022-06-05 13:13:07,065 [Worker-29: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 13:13:07,065 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DTOQuotes\src\test\resources
+2022-06-05 13:41:45,010 [Worker-31: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 13:41:45,012 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DTOQuotes\src\main\resources
+2022-06-05 13:41:45,013 [Worker-31: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 13:41:45,014 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DTOQuotes\src\test\resources
+2022-06-05 14:52:43,438 [Worker-36: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 14:52:43,439 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DTOQuotes\src\main\resources
+2022-06-05 14:52:43,440 [Worker-36: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 14:52:43,441 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DTOQuotes\src\test\resources
+2022-06-05 14:56:14,956 [Worker-39: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DTOQuotes: co.edu.uco.quotes:DTOQuotes:0.0.1-SNAPSHOT with classifier  to /DTOQuotes/target/classes
+2022-06-05 14:56:14,958 [Worker-39: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCuttingQuotes: co.edu.uco.quotes:CrossCuttingQuotes:0.0.1-SNAPSHOT with classifier  to /CrossCuttingQuotes/target/classes
+2022-06-05 14:56:14,958 [Worker-39: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutting: co.edu.uco.crosscutting:CrossCutting:0.0.1-SNAPSHOT with classifier  to /CrossCutting/target/classes
+2022-06-05 14:56:14,963 [Worker-39: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 14:56:14,964 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\main\resources
+2022-06-05 14:56:14,965 [Worker-39: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 14:56:14,966 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\test\resources
+2022-06-05 14:56:50,757 [Worker-40: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 14:56:50,758 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\main\resources
+2022-06-05 14:56:50,760 [Worker-40: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 14:56:50,760 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\test\resources
+2022-06-05 15:05:06,015 [Worker-43: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 15:05:06,017 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\main\resources
+2022-06-05 15:05:06,018 [Worker-43: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 15:05:06,020 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\test\resources
+2022-06-05 15:05:22,502 [Worker-39: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 15:05:22,502 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\main\resources
+2022-06-05 15:05:22,503 [Worker-39: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 15:05:22,504 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\test\resources
+2022-06-05 15:05:38,116 [Worker-44: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 15:05:38,117 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\main\resources
+2022-06-05 15:05:38,118 [Worker-44: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 15:05:38,119 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\test\resources
+2022-06-05 15:05:50,022 [Worker-44: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 15:05:50,023 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\main\resources
+2022-06-05 15:05:50,024 [Worker-44: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 15:05:50,025 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\test\resources
+2022-06-05 15:06:00,900 [Worker-39: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 15:06:00,901 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\main\resources
+2022-06-05 15:06:00,903 [Worker-39: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 15:06:00,904 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\test\resources
+2022-06-05 15:06:11,899 [Worker-44: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 15:06:11,900 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\main\resources
+2022-06-05 15:06:11,901 [Worker-44: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 15:06:11,901 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\test\resources
+2022-06-05 15:06:29,881 [Worker-39: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 15:06:29,882 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\main\resources
+2022-06-05 15:06:29,882 [Worker-39: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 15:06:29,883 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\test\resources
+2022-06-05 15:06:37,647 [Worker-45: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 15:06:37,647 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\main\resources
+2022-06-05 15:06:37,648 [Worker-45: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 15:06:37,649 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\test\resources
+2022-06-05 15:06:44,449 [Worker-43: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 15:06:44,450 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\main\resources
+2022-06-05 15:06:44,451 [Worker-43: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 15:06:44,452 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\test\resources
+2022-06-05 15:07:10,879 [Worker-43: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 15:07:10,880 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\main\resources
+2022-06-05 15:07:10,881 [Worker-43: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 15:07:10,882 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\test\resources
+2022-06-05 16:24:06,940 [Worker-45: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 16:24:06,941 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\main\resources
+2022-06-05 16:24:06,941 [Worker-45: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 16:24:06,942 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\test\resources
+2022-06-05 16:24:52,375 [Worker-51: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 16:24:52,376 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\main\resources
+2022-06-05 16:24:52,377 [Worker-51: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 16:24:52,378 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\test\resources
+2022-06-05 16:25:09,559 [Worker-48: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 16:25:09,560 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\main\resources
+2022-06-05 16:25:09,565 [Worker-48: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 16:25:09,566 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\test\resources
+2022-06-05 16:26:13,320 [main] ERROR o.e.m.j.u.i.DownloadSourcesActionDelegate - Could not schedule source download
+org.eclipse.jdt.core.JavaModelException: bin/co/edu/uco/quotes/data/dao [in DataQuotes] is not on its project's build path
+	at org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:584)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:254)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:328)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:314)
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getKind(PackageFragmentRoot.java:530)
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getSourceAttachmentPath(PackageFragmentRoot.java:655)
+	at org.eclipse.m2e.jdt.ui.internal.DownloadSourcesActionDelegate.setActiveEditor(DownloadSourcesActionDelegate.java:53)
+	at org.eclipse.ui.internal.EditorPluginAction.editorChanged(EditorPluginAction.java:69)
+	at org.eclipse.ui.internal.EditorActionBuilder$EditorContribution.editorChanged(EditorActionBuilder.java:77)
+	at org.eclipse.ui.internal.EditorActionBuilder$ExternalContributor.setActiveEditor(EditorActionBuilder.java:123)
+	at org.eclipse.ui.internal.EditorActionBars.partChanged(EditorActionBars.java:338)
+	at org.eclipse.ui.internal.WorkbenchPage.updateActivations(WorkbenchPage.java:323)
+	at org.eclipse.ui.internal.WorkbenchPage$E4PartListener.partActivated(WorkbenchPage.java:212)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl$2.run(PartServiceImpl.java:250)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.firePartActivated(PartServiceImpl.java:247)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.activate(PartServiceImpl.java:771)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.activate(PartServiceImpl.java:680)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.activate(PartServiceImpl.java:675)
+	at org.eclipse.ui.internal.WorkbenchPage.busyOpenEditor(WorkbenchPage.java:3215)
+	at org.eclipse.ui.internal.WorkbenchPage.lambda$9(WorkbenchPage.java:3097)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3095)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3065)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3056)
+	at org.eclipse.jdt.internal.ui.javaeditor.EditorUtility.openInEditor(EditorUtility.java:380)
+	at org.eclipse.jdt.internal.ui.javaeditor.EditorUtility.openInEditor(EditorUtility.java:184)
+	at org.eclipse.jdt.ui.actions.OpenAction.run(OpenAction.java:288)
+	at org.eclipse.jdt.ui.actions.OpenAction.run(OpenAction.java:254)
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.dispatchRun(SelectionDispatchAction.java:274)
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.run(SelectionDispatchAction.java:252)
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerActionGroup.handleOpen(PackageExplorerActionGroup.java:366)
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerPart$3.open(PackageExplorerPart.java:545)
+	at org.eclipse.ui.OpenAndLinkWithEditorHelper$InternalListener.open(OpenAndLinkWithEditorHelper.java:48)
+	at org.eclipse.jface.viewers.StructuredViewer$2.run(StructuredViewer.java:800)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.StructuredViewer.fireOpen(StructuredViewer.java:797)
+	at org.eclipse.jface.viewers.StructuredViewer.handleOpen(StructuredViewer.java:1116)
+	at org.eclipse.jface.util.OpenStrategy.fireOpenEvent(OpenStrategy.java:296)
+	at org.eclipse.jface.util.OpenStrategy$1.handleEvent(OpenStrategy.java:331)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1063)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4060)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3632)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+2022-06-05 16:28:00,619 [Worker-48: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 16:28:00,619 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\main\resources
+2022-06-05 16:28:00,620 [Worker-48: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 16:28:00,621 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\test\resources
+2022-06-05 16:29:10,705 [Worker-48: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 16:29:10,706 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\main\resources
+2022-06-05 16:29:10,706 [Worker-48: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 16:29:10,707 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\test\resources
+2022-06-05 16:29:19,290 [Worker-53: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 16:29:19,290 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\main\resources
+2022-06-05 16:29:19,291 [Worker-53: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 16:29:19,291 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\test\resources
+2022-06-05 16:29:35,601 [Worker-48: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 16:29:35,602 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\main\resources
+2022-06-05 16:29:35,603 [Worker-48: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 16:29:35,604 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\test\resources
+2022-06-05 16:32:33,142 [Worker-48: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutting: co.edu.uco.crosscutting:CrossCutting:0.0.1-SNAPSHOT with classifier  to /CrossCutting/target/classes
+2022-06-05 16:32:33,144 [Worker-48: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 16:32:33,145 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\CrossCuttingQuotes\src\main\resources
+2022-06-05 16:32:33,148 [Worker-48: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 16:32:33,149 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\CrossCuttingQuotes\src\test\resources
+2022-06-05 16:32:55,467 [Worker-55: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 16:32:55,468 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\CrossCuttingQuotes\src\main\resources
+2022-06-05 16:32:55,468 [Worker-55: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 16:32:55,469 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\CrossCuttingQuotes\src\test\resources
+2022-06-05 16:33:27,691 [Worker-55: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 16:33:27,692 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\CrossCuttingQuotes\src\main\resources
+2022-06-05 16:33:27,692 [Worker-55: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 16:33:27,693 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\CrossCuttingQuotes\src\test\resources
+2022-06-05 16:33:46,122 [Worker-57: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 16:33:46,123 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\CrossCuttingQuotes\src\main\resources
+2022-06-05 16:33:46,124 [Worker-57: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 16:33:46,125 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\CrossCuttingQuotes\src\test\resources
+2022-06-05 16:33:59,340 [Worker-48: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 16:33:59,340 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\CrossCuttingQuotes\src\main\resources
+2022-06-05 16:33:59,341 [Worker-48: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 16:33:59,342 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\CrossCuttingQuotes\src\test\resources
+2022-06-05 16:33:59,353 [Worker-48: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 16:33:59,354 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\main\resources
+2022-06-05 16:33:59,355 [Worker-48: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 16:33:59,355 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\test\resources
+2022-06-05 16:34:10,391 [Worker-53: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 16:34:10,392 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\CrossCuttingQuotes\src\main\resources
+2022-06-05 16:34:10,394 [Worker-53: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 16:34:10,395 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\CrossCuttingQuotes\src\test\resources
+2022-06-05 16:34:31,595 [Worker-53: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 16:34:31,599 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\CrossCuttingQuotes\src\main\resources
+2022-06-05 16:34:31,600 [Worker-53: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 16:34:31,601 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\CrossCuttingQuotes\src\test\resources
+2022-06-05 16:34:31,626 [Worker-53: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 16:34:31,627 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\main\resources
+2022-06-05 16:34:31,628 [Worker-53: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 16:34:31,629 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\test\resources
+2022-06-05 16:35:05,075 [Worker-48: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 16:35:05,076 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\CrossCuttingQuotes\src\main\resources
+2022-06-05 16:35:05,077 [Worker-48: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 16:35:05,078 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\CrossCuttingQuotes\src\test\resources
+2022-06-05 16:35:19,066 [Worker-55: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 16:35:19,067 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\CrossCuttingQuotes\src\main\resources
+2022-06-05 16:35:19,068 [Worker-55: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 16:35:19,068 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\CrossCuttingQuotes\src\test\resources
+2022-06-05 16:35:19,083 [Worker-55: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 16:35:19,084 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\main\resources
+2022-06-05 16:35:19,085 [Worker-55: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 16:35:19,087 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\test\resources
+2022-06-05 16:35:36,342 [Worker-56: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 16:35:36,344 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\CrossCuttingQuotes\src\main\resources
+2022-06-05 16:35:36,344 [Worker-56: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 16:35:36,345 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\CrossCuttingQuotes\src\test\resources
+2022-06-05 16:36:16,160 [Worker-48: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 16:36:16,161 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\CrossCuttingQuotes\src\main\resources
+2022-06-05 16:36:16,162 [Worker-48: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 16:36:16,164 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\CrossCuttingQuotes\src\test\resources
+2022-06-05 16:36:16,178 [Worker-48: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 16:36:16,178 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\main\resources
+2022-06-05 16:36:16,180 [Worker-48: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 16:36:16,183 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\test\resources
+2022-06-05 16:37:08,476 [Worker-55: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 16:37:08,477 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\main\resources
+2022-06-05 16:37:08,482 [Worker-55: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 16:37:08,484 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\test\resources
+2022-06-05 16:37:14,208 [Worker-55: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 16:37:14,209 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\main\resources
+2022-06-05 16:37:14,210 [Worker-55: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 16:37:14,210 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\test\resources
+2022-06-05 16:37:52,267 [Worker-53: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 16:37:52,268 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\main\resources
+2022-06-05 16:37:52,268 [Worker-53: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 16:37:52,269 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\test\resources
+2022-06-05 16:38:03,836 [Worker-53: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 16:38:03,837 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\main\resources
+2022-06-05 16:38:03,840 [Worker-53: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 16:38:03,841 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\test\resources
+2022-06-05 16:40:40,625 [Worker-55: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 16:40:40,626 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\main\resources
+2022-06-05 16:40:40,627 [Worker-55: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 16:40:40,628 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\test\resources
+2022-06-05 17:15:57,522 [Worker-48: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 17:15:57,523 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\main\resources
+2022-06-05 17:15:57,524 [Worker-48: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 17:15:57,524 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\test\resources
+2022-06-05 17:17:04,933 [Worker-62: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 17:17:04,933 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\main\resources
+2022-06-05 17:17:04,934 [Worker-62: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 17:17:04,935 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\test\resources
+2022-06-05 18:02:09,662 [Worker-66: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 18:02:09,663 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\main\resources
+2022-06-05 18:02:09,671 [Worker-66: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 18:02:09,672 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\test\resources
+2022-06-05 18:02:48,744 [Worker-61: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 18:02:48,745 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\main\resources
+2022-06-05 18:02:48,746 [Worker-61: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 18:02:48,746 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\test\resources
+2022-06-05 18:03:33,445 [Worker-66: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 18:03:33,446 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\main\resources
+2022-06-05 18:03:33,447 [Worker-66: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 18:03:33,448 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\test\resources
+2022-06-05 18:04:05,430 [Worker-61: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 18:04:05,431 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\main\resources
+2022-06-05 18:04:05,431 [Worker-61: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 18:04:05,434 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\test\resources
+2022-06-05 20:55:57,957 [Worker-78: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DTOQuotes: co.edu.uco.quotes:DTOQuotes:0.0.1-SNAPSHOT with classifier  to /DTOQuotes/target/classes
+2022-06-05 20:55:57,960 [Worker-78: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DataQuotes: co.edu.uco.quotes:DataQuotes:0.0.1-SNAPSHOT with classifier  to /DataQuotes/target/classes
+2022-06-05 20:55:57,961 [Worker-78: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCuttingQuotes: co.edu.uco.quotes:CrossCuttingQuotes:0.0.1-SNAPSHOT with classifier  to /CrossCuttingQuotes/target/classes
+2022-06-05 20:55:57,961 [Worker-78: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutting: co.edu.uco.crosscutting:CrossCutting:0.0.1-SNAPSHOT with classifier  to /CrossCutting/target/classes
+2022-06-05 20:55:57,965 [Worker-78: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 20:55:57,966 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\BusinessLogicQuotes\src\main\resources
+2022-06-05 20:55:57,967 [Worker-78: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 20:55:57,967 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\BusinessLogicQuotes\src\test\resources
+2022-06-05 20:56:37,347 [Worker-76: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 20:56:37,348 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\BusinessLogicQuotes\src\main\resources
+2022-06-05 20:56:37,349 [Worker-76: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 20:56:37,350 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\BusinessLogicQuotes\src\test\resources
+2022-06-05 20:56:52,208 [Worker-75: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 20:56:52,211 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\BusinessLogicQuotes\src\main\resources
+2022-06-05 20:56:52,212 [Worker-75: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 20:56:52,213 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\BusinessLogicQuotes\src\test\resources
+2022-06-05 20:57:00,148 [Worker-76: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 20:57:00,149 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\BusinessLogicQuotes\src\main\resources
+2022-06-05 20:57:00,150 [Worker-76: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 20:57:00,150 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\BusinessLogicQuotes\src\test\resources
+2022-06-05 20:57:07,537 [Worker-78: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 20:57:07,538 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\BusinessLogicQuotes\src\main\resources
+2022-06-05 20:57:07,539 [Worker-78: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 20:57:07,540 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\BusinessLogicQuotes\src\test\resources
+2022-06-05 20:57:29,691 [Worker-78: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 20:57:29,693 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\BusinessLogicQuotes\src\main\resources
+2022-06-05 20:57:29,696 [Worker-78: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 20:57:29,697 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\BusinessLogicQuotes\src\test\resources
+2022-06-05 20:57:40,318 [Worker-76: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 20:57:40,319 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\BusinessLogicQuotes\src\main\resources
+2022-06-05 20:57:40,320 [Worker-76: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 20:57:40,320 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\BusinessLogicQuotes\src\test\resources
+2022-06-05 20:57:50,581 [Worker-79: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 20:57:50,582 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\BusinessLogicQuotes\src\main\resources
+2022-06-05 20:57:50,584 [Worker-79: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 20:57:50,585 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\BusinessLogicQuotes\src\test\resources
+2022-06-05 20:58:22,782 [Worker-76: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 20:58:22,782 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\BusinessLogicQuotes\src\main\resources
+2022-06-05 20:58:22,783 [Worker-76: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 20:58:22,784 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\BusinessLogicQuotes\src\test\resources
+2022-06-05 20:58:25,325 [Worker-78: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 20:58:25,326 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\BusinessLogicQuotes\src\main\resources
+2022-06-05 20:58:25,327 [Worker-78: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 20:58:25,327 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\BusinessLogicQuotes\src\test\resources
+2022-06-05 20:58:38,686 [Worker-80: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 20:58:38,687 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\BusinessLogicQuotes\src\main\resources
+2022-06-05 20:58:38,688 [Worker-80: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 20:58:38,689 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\BusinessLogicQuotes\src\test\resources
+2022-06-05 21:02:05,717 [Worker-81: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 21:02:05,718 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\BusinessLogicQuotes\src\main\resources
+2022-06-05 21:02:05,719 [Worker-81: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 21:02:05,720 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\BusinessLogicQuotes\src\test\resources
+2022-06-05 21:02:21,746 [Worker-80: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 21:02:21,748 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\BusinessLogicQuotes\src\main\resources
+2022-06-05 21:02:21,749 [Worker-80: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 21:02:21,749 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\BusinessLogicQuotes\src\test\resources
+2022-06-05 21:04:11,582 [Worker-75: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 21:04:11,582 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\BusinessLogicQuotes\src\main\resources
+2022-06-05 21:04:11,583 [Worker-75: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 21:04:11,585 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\BusinessLogicQuotes\src\test\resources
+2022-06-05 21:28:04,257 [Worker-86: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 21:28:04,259 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\main\resources
+2022-06-05 21:28:04,260 [Worker-86: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 21:28:04,261 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\test\resources
+2022-06-05 21:28:04,276 [Worker-86: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 21:28:04,277 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\BusinessLogicQuotes\src\main\resources
+2022-06-05 21:28:04,279 [Worker-86: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 21:28:04,280 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\BusinessLogicQuotes\src\test\resources
+2022-06-05 22:30:14,976 [Worker-97: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 22:30:14,977 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\main\resources
+2022-06-05 22:30:14,978 [Worker-97: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 22:30:14,979 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\test\resources
+2022-06-05 22:30:14,990 [Worker-97: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 22:30:14,990 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\BusinessLogicQuotes\src\main\resources
+2022-06-05 22:30:14,991 [Worker-97: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 22:30:14,992 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\BusinessLogicQuotes\src\test\resources
+2022-06-05 22:31:09,638 [Worker-91: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 22:31:09,639 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\main\resources
+2022-06-05 22:31:09,641 [Worker-91: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 22:31:09,641 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\test\resources
+2022-06-05 22:31:23,786 [Worker-98: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 22:31:23,787 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\main\resources
+2022-06-05 22:31:23,788 [Worker-98: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 22:31:23,788 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\test\resources
+2022-06-05 22:31:29,975 [Worker-98: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 22:31:29,976 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\main\resources
+2022-06-05 22:31:29,977 [Worker-98: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 22:31:29,978 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\test\resources
+2022-06-05 22:31:39,105 [Worker-98: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 22:31:39,105 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\main\resources
+2022-06-05 22:31:39,106 [Worker-98: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 22:31:39,107 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\test\resources
+2022-06-05 22:31:53,509 [Worker-96: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 22:31:53,510 [Worker-96: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\main\resources
+2022-06-05 22:31:53,515 [Worker-96: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 22:31:53,517 [Worker-96: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\test\resources
+2022-06-05 22:32:10,551 [Worker-91: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 22:32:10,552 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\main\resources
+2022-06-05 22:32:10,554 [Worker-91: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 22:32:10,555 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\test\resources
+2022-06-05 22:32:24,822 [Worker-98: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 22:32:24,823 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\main\resources
+2022-06-05 22:32:24,824 [Worker-98: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 22:32:24,825 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\test\resources
+2022-06-05 22:32:39,001 [Worker-98: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 22:32:39,002 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\main\resources
+2022-06-05 22:32:39,002 [Worker-98: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 22:32:39,003 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\test\resources
+2022-06-05 22:32:52,793 [Worker-98: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 22:32:52,794 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\main\resources
+2022-06-05 22:32:52,799 [Worker-98: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 22:32:52,799 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\test\resources
+2022-06-05 22:44:05,902 [Worker-91: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 22:44:05,903 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\main\resources
+2022-06-05 22:44:05,904 [Worker-91: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 22:44:05,905 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\test\resources
+2022-06-05 22:44:23,327 [Worker-93: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 22:44:23,333 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\main\resources
+2022-06-05 22:44:23,334 [Worker-93: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 22:44:23,334 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\test\resources
+2022-06-05 22:44:42,181 [Worker-102: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 22:44:42,183 [Worker-102: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\main\resources
+2022-06-05 22:44:42,184 [Worker-102: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 22:44:42,186 [Worker-102: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\test\resources
+2022-06-05 22:45:11,673 [Worker-93: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 22:45:11,674 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\main\resources
+2022-06-05 22:45:11,674 [Worker-93: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 22:45:11,675 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\test\resources
+2022-06-05 22:45:28,243 [Worker-102: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 22:45:28,243 [Worker-102: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\main\resources
+2022-06-05 22:45:28,246 [Worker-102: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 22:45:28,250 [Worker-102: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\test\resources
+2022-06-05 22:45:37,108 [Worker-91: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 22:45:37,109 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\main\resources
+2022-06-05 22:45:37,110 [Worker-91: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 22:45:37,111 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\test\resources
+2022-06-05 22:47:38,944 [Worker-91: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 22:47:38,945 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\main\resources
+2022-06-05 22:47:38,946 [Worker-91: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 22:47:38,947 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\test\resources
+2022-06-05 22:48:03,984 [Worker-103: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 22:48:03,984 [Worker-103: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\main\resources
+2022-06-05 22:48:03,985 [Worker-103: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 22:48:03,985 [Worker-103: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\test\resources
+2022-06-05 22:49:39,620 [Worker-93: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 22:49:39,621 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\main\resources
+2022-06-05 22:49:39,621 [Worker-93: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 22:49:39,622 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\test\resources
+2022-06-05 22:49:58,804 [Worker-93: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 22:49:58,805 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\main\resources
+2022-06-05 22:49:58,806 [Worker-93: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 22:49:58,806 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\test\resources
+2022-06-05 22:53:05,481 [Worker-101: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 22:53:05,482 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\main\resources
+2022-06-05 22:53:05,483 [Worker-101: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 22:53:05,484 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\test\resources
+2022-06-05 22:56:57,103 [Worker-101: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 22:56:57,104 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\main\resources
+2022-06-05 22:56:57,105 [Worker-101: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 22:56:57,107 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\test\resources
+2022-06-05 22:57:04,955 [Worker-103: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 22:57:04,956 [Worker-103: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\main\resources
+2022-06-05 22:57:04,956 [Worker-103: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 22:57:04,957 [Worker-103: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\test\resources
+2022-06-05 22:59:32,488 [Worker-93: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 22:59:32,489 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\main\resources
+2022-06-05 22:59:32,490 [Worker-93: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 22:59:32,490 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\test\resources
+2022-06-05 23:05:47,955 [Worker-103: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 23:05:47,956 [Worker-103: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\main\resources
+2022-06-05 23:05:47,957 [Worker-103: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 23:05:47,959 [Worker-103: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\test\resources
+2022-06-05 23:05:47,976 [Worker-103: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 23:05:47,977 [Worker-103: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\BusinessLogicQuotes\src\main\resources
+2022-06-05 23:05:47,977 [Worker-103: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 23:05:47,978 [Worker-103: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\BusinessLogicQuotes\src\test\resources
+2022-06-05 23:06:40,644 [Worker-103: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 23:06:40,645 [Worker-103: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\main\resources
+2022-06-05 23:06:40,646 [Worker-103: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 23:06:40,647 [Worker-103: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\test\resources
+2022-06-05 23:07:41,976 [Worker-101: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 23:07:41,977 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\main\resources
+2022-06-05 23:07:41,978 [Worker-101: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 23:07:41,979 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\test\resources
+2022-06-05 23:09:11,146 [Worker-105: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 23:09:11,148 [Worker-105: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\main\resources
+2022-06-05 23:09:11,149 [Worker-105: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 23:09:11,149 [Worker-105: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\test\resources
+2022-06-05 23:10:17,357 [Worker-93: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 23:10:17,358 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\main\resources
+2022-06-05 23:10:17,359 [Worker-93: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 23:10:17,360 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\test\resources
+2022-06-05 23:10:32,339 [Worker-105: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 23:10:32,340 [Worker-105: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\main\resources
+2022-06-05 23:10:32,341 [Worker-105: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-05 23:10:32,341 [Worker-105: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\test\resources
+2022-06-06 00:02:16,391 [Worker-107: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-06 00:02:16,392 [Worker-107: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\BusinessLogicQuotes\src\main\resources
+2022-06-06 00:02:16,393 [Worker-107: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-06 00:02:16,393 [Worker-107: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\BusinessLogicQuotes\src\test\resources
+2022-06-06 00:14:04,563 [Worker-111: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-06 00:14:04,564 [Worker-111: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\main\resources
+2022-06-06 00:14:04,565 [Worker-111: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-06 00:14:04,565 [Worker-111: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\test\resources
+2022-06-06 00:30:43,103 [Worker-116: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-06 00:30:43,103 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DTOQuotes\src\main\resources
+2022-06-06 00:30:43,104 [Worker-116: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-06 00:30:43,105 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DTOQuotes\src\test\resources
+2022-06-06 00:30:43,114 [Worker-116: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-06 00:30:43,115 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\main\resources
+2022-06-06 00:30:43,116 [Worker-116: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-06 00:30:43,116 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\test\resources
+2022-06-06 00:34:12,844 [Worker-120: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-06 00:34:12,845 [Worker-120: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\main\resources
+2022-06-06 00:34:12,846 [Worker-120: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-06 00:34:12,847 [Worker-120: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jerof\OneDrive\Documentos\ProyectoClaseCarpinteria\DataQuotes\src\test\resources

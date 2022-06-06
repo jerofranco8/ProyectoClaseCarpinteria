@@ -1,0 +1,10 @@
+package co.edu.uco.quotes.data.dao;
+
+import co.edu.uco.quotes.dto.EmployeeTypeDTO;
+
+public interface EmployeeTypeDAO {
+	void create(EmployeeTypeDTO employeeType);
+	void update(EmployeeTypeDTO employeeType);
+	void delete(int id);
+	void find (EmployeeTypeDTO employeeType);
+}

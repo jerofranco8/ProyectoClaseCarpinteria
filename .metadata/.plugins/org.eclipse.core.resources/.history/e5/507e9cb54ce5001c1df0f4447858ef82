@@ -1,0 +1,18 @@
+package co.edu.uco.quotes.data.dao.azuresql;
+
+import java.sql.Connection;
+
+import co.edu.uco.quotes.data.dao.IdTypeDAO;
+import co.edu.uco.quotes.data.dao.connection.ConnectionSQL;
+
+public class EmployeeTypeAzureSqlDAO extends ConnectionSQL implements IdTypeDAO {
+
+	protected IdTypeAzureSqlDAO(Connection connection) {
+		super(connection);
+	}
+
+	public static IdTypeDAO build(Connection connection) {
+		return new IdTypeAzureSqlDAO(connection);
+	}{
+
+}

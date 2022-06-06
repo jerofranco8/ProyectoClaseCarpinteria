@@ -11,7 +11,7 @@ public class EmployeeStatusDTO {
 	
 	public EmployeeStatusDTO() {
 		super();
-		setName(name);
+		setName(UtilText.EMPTY);
 	}
 	
 	public EmployeeStatusDTO(int id, String name) {

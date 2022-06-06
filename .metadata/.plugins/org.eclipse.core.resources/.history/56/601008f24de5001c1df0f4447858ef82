@@ -1,0 +1,10 @@
+package co.edu.uco.quotes.data.dao;
+
+import co.edu.uco.quotes.dto.ClientDTO;
+
+public interface ClientDAO {
+	void create(ClientDTO client);
+	void update(ClientDTO client);
+	void delete(int id);
+	void find (ClientDTO client);
+}

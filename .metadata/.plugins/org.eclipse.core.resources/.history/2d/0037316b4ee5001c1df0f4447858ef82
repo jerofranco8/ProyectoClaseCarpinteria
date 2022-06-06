@@ -1,0 +1,43 @@
+package co.edu.uco.quotes.data.dao.azuresql;
+
+import java.sql.Connection;
+
+import co.edu.uco.quotes.data.dao.QuotationTypeDAO;
+import co.edu.uco.quotes.data.dao.connection.ConnectionSQL;
+import co.edu.uco.quotes.dto.QuotationTypeDTO;
+
+public class QuotationTypeAzureSqlDAO extends ConnectionSQL implements QuotationTypeDAO {
+
+	protected QuotationTypeAzureSqlDAO(Connection connection) {
+		super(connection);
+	}
+
+	public static QuotationTypeDAO build(Connection connection) {
+		return new QuotationTypeAzureSqlDAO(connection);
+	}
+
+	@Override
+	public void create(QuotationTypeDTO quotationType) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void update(QuotationTypeDTO quotationType) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void delete(int id) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void find(QuotationTypeDTO quotationType) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

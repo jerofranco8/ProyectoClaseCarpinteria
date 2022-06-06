@@ -1,0 +1,11 @@
+package co.edu.uco.quotes.data.dao;
+
+import co.edu.uco.quotes.dto.CityDTO;
+
+
+public interface CityDAO {
+	void create(CityDTO city);
+	void update(CityDTO city);
+	void delete(int id);
+	void find (CityDTO city);
+}

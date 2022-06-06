@@ -12,9 +12,9 @@ public class EmployeeTypeDTO {
 	
 	public EmployeeTypeDTO() {
 		super();
-		setFunction(function);
-		setName(name);
-		setSalary(salary);
+		setFunction(UtilText.EMPTY);
+		setName(UtilText.EMPTY);
+		setSalary(0);
 	}
 	public EmployeeTypeDTO(int id, String name, int salary, String function) {
 		super();

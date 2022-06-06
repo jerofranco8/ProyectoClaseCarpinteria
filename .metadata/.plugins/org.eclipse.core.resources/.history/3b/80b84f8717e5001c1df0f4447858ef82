@@ -1,0 +1,75 @@
+package co.edu.uco.quotes.crosscutting.exception;
+
+import static co.edu.uco.crosscutting.util.object.UtilObject.getUtilObject;
+
+import co.edu.uco.crosscutting.exception.GeneralException;
+import co.edu.uco.quotes.crosscutting.exception.enumeration.ExceptionLocation;
+import co.edu.uco.quotes.crosscutting.exception.enumeration.ExceptionType;
+
+public class QuotesExcpetion extends GeneralException {
+
+	private QuotesExcpetion(String userMessage, String technicalMessage, Exception rootException, ExceptionType type,
+			ExceptionLocation location) {
+		super(userMessage, technicalMessage, rootException);
+		setType(type);
+		setLocation(location);
+	}
+
+	public static QuotesExcpetion buildUserException(String userMessage) {
+		return new QuotesExcpetion(userMessage, userMessage, null, ExceptionType.BUSINESS, null);
+	}
+
+	public static QuotesExcpetion buildTechnicalException(String technicalMessage) {
+		return new QuotesExcpetion(null, technicalMessage, null, ExceptionType.TECHNICAL, null);
+	}
+
+	public static QuotesExcpetion buildTechnicalException(String technicalMessage, Exception rootException, ExceptionLocation location) {
+		return new QuotesExcpetion(null, technicalMessage, rootException, ExceptionType.TECHNICAL, location);
+	}
+	
+	public static QuotesExcpetion buildTechnicalDataException(String technicalMessage) {
+		return new QuotesExcpetion(null, technicalMessage, null, ExceptionType.TECHNICAL, ExceptionLocation.DATA);
+	}
+	
+	public static QuotesExcpetion buildTechnicalBussinessLogicException(String technicalMessage) {
+		return new QuotesExcpetion(null, technicalMessage, null, ExceptionType.TECHNICAL, ExceptionLocation.BUSINESS_LOGIC);
+	}
+	
+	public static QuotesExcpetion buildBussinessLogicException(String businessMessage) {
+		return new QuotesExcpetion(businessMessage, null, null, ExceptionType.BUSINESS, ExceptionLocation.BUSINESS_LOGIC);
+	}
+	
+	public static QuotesExcpetion buildTechnicalDataException(String technicalMessage, Exception rootException) {
+		return new QuotesExcpetion(null, technicalMessage, rootException, ExceptionType.TECHNICAL, ExceptionLocation.DATA);
+	}
+
+	public static QuotesExcpetion build(String userMessage, String technicalMessage) {
+		return new QuotesExcpetion(userMessage, technicalMessage, null, null, null);
+	}
+
+	public static QuotesExcpetion build(String userMessage, String technicalMessage, Exception rootException) {
+		return new QuotesExcpetion(userMessage, technicalMessage, rootException, null, null);
+	}
+
+	private static final long serialVersionUID = 625249639280789375L;
+
+	private ExceptionType type;
+	private ExceptionLocation location;
+
+	private void setType(ExceptionType type) {
+		this.type = getUtilObject().getDefault(type, ExceptionType.GENERAL);
+	}
+
+	private void setLocation(ExceptionLocation location) {
+		this.location = location;
+	}
+	
+	public ExceptionLocation getLocation() {
+		return location;
+	}
+
+	public ExceptionType getType() {
+		return type;
+	}
+
+}

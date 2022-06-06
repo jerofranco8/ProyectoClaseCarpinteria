@@ -13,8 +13,8 @@ public class InventoryDTO {
 
 	public InventoryDTO() {
 		super();
-		setName(name);
-		setStocks(stocks);
+		setName(UtilText.EMPTY);
+		setStocks(new ArrayList<StockDTO>());
 	}
 	public InventoryDTO(int id, String name, List<StockDTO> stocks) {
 		super();

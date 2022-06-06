@@ -1,0 +1,43 @@
+package co.edu.uco.quotes.data.dao.azuresql;
+
+import java.sql.Connection;
+import java.util.List;
+
+import co.edu.uco.quotes.data.dao.CampusDAO;
+import co.edu.uco.quotes.data.dao.connection.ConnectionSQL;
+import co.edu.uco.quotes.dto.CampusDTO;
+
+public class CampusAzureSqlDAO extends ConnectionSQL implements CampusDAO {
+
+	protected CampusAzureSqlDAO(Connection connection) {
+		super(connection);
+	}
+
+	public static CampusDAO build(Connection connection) {
+		return new CampusAzureSqlDAO(connection);
+	}
+
+	@Override
+	public void create(CampusDTO campus) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void update(CampusDTO campus) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void delete(int id) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public List<CampusDTO> Find(CampusDTO campus) {
+		// TODO Auto-generated method stub
+		return null;
+	} 
+}

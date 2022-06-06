@@ -1,0 +1,52 @@
+package co.edu.uco.quotes.dto;
+
+import co.edu.uco.crosscutting.util.numeric.UtilNumeric;
+import co.edu.uco.crosscutting.util.text.UtilText;
+
+public class EmployeeTypeDTO {
+	private int id;
+	private String name;
+	private int salary;
+	private String function;
+
+	
+	public EmployeeTypeDTO() {
+		super();
+		setFunction(UtilText.EMPTY);
+		setName(UtilText.EMPTY);
+		setSalary(UtilNumeric.ZERO);
+	}
+	public EmployeeTypeDTO(int id, String name, int salary, String function) {
+		super();
+		setFunction(function);
+		setId(id);
+		setName(name);
+		setSalary(salary);
+	}
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = UtilText.getDefault(name);
+	}
+	public int getSalary() {
+		return salary;
+	}
+	public void setSalary(int salary) {
+		this.salary = (int) UtilNumeric.getUtilNumeric().getDefault(salary);
+	}
+	public String getFunction() {
+		return function;
+	}
+	public void setFunction(String function) {
+		this.function = UtilText.getDefault(function);
+	}
+	
+	
+}

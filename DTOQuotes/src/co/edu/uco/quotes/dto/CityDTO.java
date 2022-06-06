@@ -9,7 +9,7 @@ public class CityDTO {
 	
 	public CityDTO() {
 		super();
-		setName(name);
+		setName(UtilText.EMPTY);
 	}
 
 	
