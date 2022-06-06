@@ -21,7 +21,7 @@ public class EmployeeTypeAzureSqlDAO extends ConnectionSQL implements EmployeeTy
 
 	@Override
 	public void create(EmployeeTypeDTO employeeType) {
-		// TODO Auto-generated method stub
+
 		
 	}
 

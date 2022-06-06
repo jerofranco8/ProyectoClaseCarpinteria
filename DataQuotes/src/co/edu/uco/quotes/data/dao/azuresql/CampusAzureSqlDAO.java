@@ -46,7 +46,7 @@ public class CampusAzureSqlDAO extends ConnectionSQL implements CampusDAO {
 
 	@Override
 	public void update(CampusDTO campus) {
-		// TODO Auto-generated method stub
+
 		
 	}
 
@@ -72,7 +72,7 @@ public class CampusAzureSqlDAO extends ConnectionSQL implements CampusDAO {
 
 	@Override
 	public List<CampusDTO> Find(CampusDTO campus) {
-		// TODO Auto-generated method stub
+
 		return null;
 	} 
 }

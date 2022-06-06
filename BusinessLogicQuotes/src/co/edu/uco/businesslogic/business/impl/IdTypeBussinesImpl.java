@@ -7,6 +7,7 @@ import co.edu.uco.quotes.businesslogic.business.IdTypeBusiness;
 import co.edu.uco.quotes.crosscutting.exception.QuotesException;
 import co.edu.uco.quotes.data.factory.DAOFactory;
 import co.edu.uco.quotes.dto.ClientDTO;
+import co.edu.uco.quotes.dto.EmployeeDTO;
 import co.edu.uco.quotes.dto.IdTypeDTO;
 
 
@@ -25,7 +26,9 @@ public class IdTypeBussinesImpl implements IdTypeBusiness {
 	@Override
 	public void create(IdTypeDTO dto) {
 		validateIdTypeDeosNotExistWithSameName(dto);
-		daoFactory.getIdTypeDAO().create(dto);	
+		daoFactory.getIdTypeDAO().create(dto);
+		
+		
 	}
 	
 	private void validateIdTypeDeosNotExistWithSameName(IdTypeDTO dto) {
@@ -52,11 +55,18 @@ public class IdTypeBussinesImpl implements IdTypeBusiness {
 	
 	private void validateIfIsUsed(IdTypeDTO dto) {
 		ClientDTO client = new ClientDTO();
+		client.setIdType(dto);
+		
+		EmployeeDTO employee = new EmployeeDTO();
+		employee.setIdType(dto);
 		
 		if(!daoFactory.getClientDAO().find(client).isEmpty()) {
 			throw QuotesException.buildBussinessLogicException("Id type is associated whit a Client");
 		}
 		
+		if(!daoFactory.getEmployeeDAO().find(employee).isEmpty()) {
+			throw QuotesException.buildBussinessLogicException("Id type is associated whit a employeed");
+		}
 	}
 	
 	public void validateDuplicated(IdTypeDTO dto) {

@@ -1,2 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="co.edu.uco.crosscutting.util.object.UtilObject"/>
+    <fullyQualifiedTypeName name="co.edu.uco.crosscutting.util.numeric.UtilNumeric"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.ComponentScan"/>
+    <fullyQualifiedTypeName name="co.edu.uco.quotes.dto.ClientDTO"/>
+    <fullyQualifiedTypeName name="co.edu.uco.quotes.dto.EmployeeDTO"/>
+    <fullyQualifiedTypeName name="co.edu.uco.quotes.data.dao.StockDAO"/>
+</qualifiedTypeNameHistroy>

@@ -1,4 +1,3 @@
-
 package co.edu.uco.quotes.businesslogic.facade.impl;
 
 import java.util.List;

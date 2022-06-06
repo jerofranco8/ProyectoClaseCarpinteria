@@ -24,6 +24,7 @@ import co.edu.uco.quotes.data.factory.DAOFactory;
 
 public class AzureSqlDAOFactory extends DAOFactory {
 
+
 	private Connection connection;
 
 	private AzureSqlDAOFactory() {
