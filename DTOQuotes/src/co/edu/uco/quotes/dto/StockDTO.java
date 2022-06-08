@@ -9,19 +9,22 @@ public class StockDTO {
 	private String name;
 	private int unit;
 	private RawMaterialDTO rawMaterial;
+	private InventoryDTO inventory;
 
 	public StockDTO() {
 		super();
 		setName(UtilText.EMPTY);
 		setRawMaterial(new RawMaterialDTO());
 		setUnit(0);
+		setInventory(new InventoryDTO());
 	}
-	public StockDTO(int id, String name, int unit, RawMaterialDTO rawMaterial) {
+	public StockDTO(int id, String name, int unit, RawMaterialDTO rawMaterial, InventoryDTO inventory) {
 		super();
 		setId(id);
 		setName(name);
 		setRawMaterial(rawMaterial);
 		setUnit(unit);
+		setInventory(inventory);
 	}
 
 	public int getId() {
@@ -55,5 +58,13 @@ public class StockDTO {
 	public void setRawMaterial(RawMaterialDTO rawMaterial) {
 		this.rawMaterial = UtilObject.getUtilObject().getDefault(rawMaterial, new RawMaterialDTO());
 	}
+	public InventoryDTO getInventory() {
+		return inventory;
+	}
+	public void setInventory(InventoryDTO inventory) {
+		this.inventory = UtilObject.getUtilObject().getDefault(inventory, new InventoryDTO());
+	}
+	
+	
 	
 }

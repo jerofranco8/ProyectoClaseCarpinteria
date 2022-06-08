@@ -20,6 +20,19 @@ import co.edu.uco.quotes.data.dao.QuotationTypeDAO;
 import co.edu.uco.quotes.data.dao.RawMaterialDAO;
 import co.edu.uco.quotes.data.dao.RawMaterialTypeDAO;
 import co.edu.uco.quotes.data.dao.StockDAO;
+import co.edu.uco.quotes.data.dao.azuresql.CampusAzureSqlDAO;
+import co.edu.uco.quotes.data.dao.azuresql.CityAzureSqlDAO;
+import co.edu.uco.quotes.data.dao.azuresql.ClientAzureSqlDAO;
+import co.edu.uco.quotes.data.dao.azuresql.EmployeeAzureSqlDAO;
+import co.edu.uco.quotes.data.dao.azuresql.EmployeeStatusAzureSqlDAO;
+import co.edu.uco.quotes.data.dao.azuresql.EmployeeTypeAzureSqlDAO;
+import co.edu.uco.quotes.data.dao.azuresql.IdTypeAzureSqlDAO;
+import co.edu.uco.quotes.data.dao.azuresql.InventoryAzureSqlDAO;
+import co.edu.uco.quotes.data.dao.azuresql.QuotationAzureSqlDAO;
+import co.edu.uco.quotes.data.dao.azuresql.QuotationTypeAzureSqlDAO;
+import co.edu.uco.quotes.data.dao.azuresql.RawMaterialAzureSqlDAO;
+import co.edu.uco.quotes.data.dao.azuresql.RawMaterialTypeAzureSqlDAO;
+import co.edu.uco.quotes.data.dao.azuresql.StockAzureSqlDAO;
 import co.edu.uco.quotes.data.factory.DAOFactory;
 
 public class AzureSqlDAOFactory extends DAOFactory {
@@ -38,7 +51,7 @@ public class AzureSqlDAOFactory extends DAOFactory {
 	@Override
 	protected void openConnection() {
 
-		String stringConnection = "jdbc:sqlserver://academic-database-server.database.windows.net:1433;database=academic-db;user=academicDmlUser;password=4c4d3m1cDmlUs3r;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;";
+		String stringConnection = "jdbc:sqlserver://desktop-k0ure42:1433;sqlexpress;databaseName=quotes-db;user=desktop-k0ure42/jerof;password=123456789;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;";
 		try {
 			connection = DriverManager.getConnection(stringConnection);
 
@@ -173,78 +186,75 @@ public class AzureSqlDAOFactory extends DAOFactory {
 
 	@Override
 	public CampusDAO getCampusDAO() {
-		return null;
+		return CampusAzureSqlDAO.build(getConnection());
 	}
 
 	@Override
 	public CityDAO getCityDAO() {
-		// TODO Auto-generated method stub
-		return null;
+		return CityAzureSqlDAO.build(getConnection());
 	}
 
 	@Override
 	public ClientDAO getClientDAO() {
-		// TODO Auto-generated method stub
-		return null;
+		return ClientAzureSqlDAO.build(getConnection());
+		
 	}
 
 	@Override
 	public EmployeeDAO getEmployeeDAO() {
-		// TODO Auto-generated method stub
-		return null;
+		return EmployeeAzureSqlDAO.build(getConnection());
 	}
 
 	@Override
 	public EmployeeStatusDAO getEmployeeStatusDAO() {
-		// TODO Auto-generated method stub
-		return null;
+		return EmployeeStatusAzureSqlDAO.build(getConnection());
+	
 	}
 
 	@Override
 	public EmployeeTypeDAO getEmployeeTypeDAO() {
-		// TODO Auto-generated method stub
-		return null;
+		return EmployeeTypeAzureSqlDAO.build(getConnection());
+
 	}
 
 	@Override
 	public IdTypeDAO getIdTypeDAO() {
-		// TODO Auto-generated method stub
-		return null;
+		return IdTypeAzureSqlDAO.build(getConnection());
+	
 	}
 
 	@Override
 	public InventoryDAO getInventoryDAO() {
-		// TODO Auto-generated method stub
-		return null;
+		return InventoryAzureSqlDAO.build(getConnection());
+	
 	}
 
 	@Override
 	public QuotationDAO getQuotationDAO() {
-		// TODO Auto-generated method stub
-		return null;
+		return QuotationAzureSqlDAO.build(getConnection());
+	
 	}
 
 	@Override
 	public QuotationTypeDAO getQuotationTypeDAO() {
-		// TODO Auto-generated method stub
-		return null;
+		return QuotationTypeAzureSqlDAO.build(getConnection());	
 	}
 
 	@Override
 	public RawMaterialDAO getMaterialDAO() {
-		// TODO Auto-generated method stub
-		return null;
+		return RawMaterialAzureSqlDAO.build(getConnection());
+
 	}
 
 	@Override
 	public RawMaterialTypeDAO getMaterialTypeDAO() {
-		// TODO Auto-generated method stub
-		return null;
+		return RawMaterialTypeAzureSqlDAO.build(getConnection());
+		
 	}
 
 	@Override
 	public StockDAO getStockDAO() {
-		return null;
+		return StockAzureSqlDAO.build(getConnection());
 	}
 
 

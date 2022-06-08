@@ -1,16 +1,6 @@
 
-W
-java:S1068"&Remove this unused "id" private field.(ôç¼ÓşÿÿÿÿH”RMAJORZ
+‘
+java:S22933"YReplace the type specification in this constructor call with the diamond operator ("<>").(¢ƒ•¬úÿÿÿÿ8¦Ìşø“0H½RMINORZ
 CODE_SMELL
-T
-java:S1068"(Remove this unused "name" private field.(Ë¥¼H–RMAJORZ
-CODE_SMELL
-f
-java:S1068"5Remove this unused "upperCabinetMeter" private field.(îÓ¸®øÿÿÿÿH˜RMAJORZ
-CODE_SMELL
-Q
-java:S1068"%Remove this unused "s" private field.(ó¥HšRMAJORZ
-CODE_SMELL
-f
-java:S1068"5Remove this unused "lowerCabinetMeter" private field.(´ê©ùıÿÿÿÿHœRMAJORZ
+t	java:S107"BConstructor has 10 parameters, which is greater than 7 authorized.(‚ÃĞñ8¦Ìşø“0H¿RMAJORZ
 CODE_SMELL

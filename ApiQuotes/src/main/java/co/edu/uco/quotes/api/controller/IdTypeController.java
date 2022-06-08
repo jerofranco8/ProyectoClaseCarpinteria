@@ -37,7 +37,7 @@ public class IdTypeController {
 		return new IdTypeDTO();
 	}
 
-	@PostMapping()
+	@PostMapping
 	public ResponseEntity<Response<IdTypeDTO>> create(@RequestBody IdTypeDTO dto) {
 		Validator<IdTypeDTO> validator = new CreateIdTypeValidator();
 		List<String> messages = UtilObject.getUtilObject().getDefault(validator.validate(dto), new ArrayList<>());
@@ -206,7 +206,7 @@ public class IdTypeController {
 		return responseEntity;
 	}
 
-	@GetMapping()
+	@GetMapping
 	public ResponseEntity<Response<IdTypeDTO>> find() {
 		List<String> messages = new ArrayList<>();
 		Response<IdTypeDTO> response = new Response<>();
@@ -223,7 +223,7 @@ public class IdTypeController {
 				messages.add("There was a problem trying to find the id types Please, try again");
 				System.err.println(exception.getLocation());
 				System.err.println(exception.getType());
-				System.err.println(exception.getMessage());
+				System.err.println(exception.getTechnicalMessage());
 				exception.getRootException().printStackTrace();
 			} else {
 				messages.add(exception.getUserMessage());

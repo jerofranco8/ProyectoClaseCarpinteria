@@ -65,7 +65,7 @@ public class IdTypeBussinesImpl implements IdTypeBusiness {
 		}
 		
 		if(!daoFactory.getEmployeeDAO().find(employee).isEmpty()) {
-			throw QuotesException.buildBussinessLogicException("Id type is associated whit a employeed");
+		throw QuotesException.buildBussinessLogicException("Id type is associated whit a employeed");
 		}
 	}
 	

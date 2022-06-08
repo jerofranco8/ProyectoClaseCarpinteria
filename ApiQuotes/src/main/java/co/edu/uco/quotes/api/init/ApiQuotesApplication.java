@@ -6,7 +6,7 @@ import org.springframework.context.annotation.ComponentScan;
 
 
 @SpringBootApplication
-@ComponentScan(basePackages = "co.edu.uco.quotes")
+@ComponentScan(basePackages = {"co.edu.uco.quotes"})
 public class ApiQuotesApplication {
 
 	public static void main(String[] args) {

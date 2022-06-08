@@ -13,3 +13,5 @@ Z
 0src/co/edu/uco/quotes/dto/EmployeeStatusDTO.java,9\7\979ab578f00af198dee4033f781882a0d9a5f0ae
 X
 (src/co/edu/uco/quotes/dto/IdTypeDTO.java,4\7\471ae6ee37ee8af53c9216ae6f774a5fa02bb680
+^
+.src/co/edu/uco/quotes/dto/EmployeeTypeDTO.java,d\7\d7a48390e4814a99b14722cea24b47bfb8152ecd

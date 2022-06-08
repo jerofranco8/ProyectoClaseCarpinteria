@@ -1,11 +1,32 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="java.util.List"/>
-    <fullyQualifiedTypeName name="co.edu.uco.crosscutting.util.object.UtilObject"/>
-    <fullyQualifiedTypeName name="co.edu.uco.crosscutting.util.numeric.UtilNumeric"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="org.springframework.context.annotation.ComponentScan"/>
     <fullyQualifiedTypeName name="co.edu.uco.quotes.dto.ClientDTO"/>
     <fullyQualifiedTypeName name="co.edu.uco.quotes.dto.EmployeeDTO"/>
     <fullyQualifiedTypeName name="co.edu.uco.quotes.data.dao.StockDAO"/>
+    <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="co.edu.uco.quotes.data.dao.azuresql.CityAzureSqlDAO"/>
+    <fullyQualifiedTypeName name="co.edu.uco.quotes.data.dao.azuresql.ClientAzureSqlDAO"/>
+    <fullyQualifiedTypeName name="co.edu.uco.quotes.data.dao.azuresql.CampusAzureSqlDAO"/>
+    <fullyQualifiedTypeName name="co.edu.uco.quotes.data.dao.azuresql.EmployeeAzureSqlDAO"/>
+    <fullyQualifiedTypeName name="co.edu.uco.quotes.data.dao.azuresql.EmployeeStatusAzureSqlDAO"/>
+    <fullyQualifiedTypeName name="co.edu.uco.quotes.data.dao.azuresql.EmployeeTypeAzureSqlDAO"/>
+    <fullyQualifiedTypeName name="co.edu.uco.quotes.data.dao.azuresql.IdTypeAzureSqlDAO"/>
+    <fullyQualifiedTypeName name="co.edu.uco.quotes.data.dao.azuresql.InventoryAzureSqlDAO"/>
+    <fullyQualifiedTypeName name="co.edu.uco.quotes.data.dao.azuresql.QuotationAzureSqlDAO"/>
+    <fullyQualifiedTypeName name="co.edu.uco.quotes.data.dao.azuresql.QuotationTypeAzureSqlDAO"/>
+    <fullyQualifiedTypeName name="co.edu.uco.quotes.data.dao.azuresql.RawMaterialAzureSqlDAO"/>
+    <fullyQualifiedTypeName name="co.edu.uco.quotes.data.dao.azuresql.RawMaterialTypeAzureSqlDAO"/>
+    <fullyQualifiedTypeName name="co.edu.uco.quotes.data.dao.azuresql.StockAzureSqlDAO"/>
+    <fullyQualifiedTypeName name="java.sql.ResultSet"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="co.edu.uco.crosscutting.util.object.UtilObject"/>
+    <fullyQualifiedTypeName name="co.edu.uco.quotes.dto.CampusDTO"/>
+    <fullyQualifiedTypeName name="co.edu.uco.crosscutting.util.numeric.UtilNumeric"/>
+    <fullyQualifiedTypeName name="co.edu.uco.crosscutting.util.text.UtilText"/>
+    <fullyQualifiedTypeName name="co.edu.uco.quotes.dto.EmployeeTypeDTO"/>
+    <fullyQualifiedTypeName name="co.edu.uco.quotes.dto.EmployeeStatusDTO"/>
+    <fullyQualifiedTypeName name="co.edu.uco.quotes.dto.IdTypeDTO"/>
 </qualifiedTypeNameHistroy>

@@ -12,7 +12,7 @@ public class ClientDTO {
 	private String name;
 	private IdTypeDTO idType;
 	private String idNumber;
-	private List<QuotationDTO> quotations;
+
 	
 	
 	
@@ -21,16 +21,16 @@ public class ClientDTO {
 		setName(UtilText.EMPTY);
 		setIdNumber(UtilText.EMPTY);
 		setIdType(new IdTypeDTO());
-		setQuotations(new ArrayList<QuotationDTO>());
+		;
 	}
 	
-	public ClientDTO(int id, String name, IdTypeDTO idType, String idNumber, List<QuotationDTO> quotations) {
+	public ClientDTO(int id, String name, IdTypeDTO idType, String idNumber) {
 		super();
 		setId(id);
 		setName(name);
 		setIdNumber(idNumber);
 		setIdType(idType);
-		setQuotations(quotations);
+	
 	}
 	
 	
@@ -59,12 +59,7 @@ public class ClientDTO {
 	public void setIdNumber(String idNumber) {
 		this.idNumber = UtilText.getDefault(idNumber);
 	}
-	public List<QuotationDTO> getQuotations() {
-		return quotations;
-	}
-	public void setQuotations(List<QuotationDTO> quotations) {
-		this.quotations = UtilObject.getUtilObject().getDefault(quotations, new ArrayList<QuotationDTO>());
-	}
+	
 	
 	
 	

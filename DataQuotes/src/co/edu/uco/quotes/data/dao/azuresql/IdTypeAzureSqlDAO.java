@@ -15,7 +15,9 @@ import co.edu.uco.crosscutting.util.text.UtilText;
 import co.edu.uco.quotes.crosscutting.exception.QuotesException;
 import co.edu.uco.quotes.data.dao.IdTypeDAO;
 import co.edu.uco.quotes.data.dao.connection.ConnectionSQL;
+
 import co.edu.uco.quotes.dto.IdTypeDTO;
+
 
 public class IdTypeAzureSqlDAO extends ConnectionSQL implements IdTypeDAO {
 
@@ -50,6 +52,11 @@ public class IdTypeAzureSqlDAO extends ConnectionSQL implements IdTypeDAO {
 
 	@Override
 	public void update(IdTypeDTO idType) {
+//		private int id;
+//		private String name;
+//		private CityDTO city;
+//		private InventoryDTO inventory;
+//		private String direction;
 		String sql = "UPDATE IdType SET name = ? WHERE id=?";
 
 		try (PreparedStatement preparedStatement = getConnection().prepareStatement(sql)) {
@@ -116,11 +123,14 @@ public class IdTypeAzureSqlDAO extends ConnectionSQL implements IdTypeDAO {
 				sb.append(setWhere ? "WHERE " : "AND ");
 				sb.append("name = ? ");
 				parameters.add(UtilText.trim(idType.getName()));
+				setWhere = false;
 			}
 
 		}
 
 		sb.append("ORDER BY name ASC");
+		
+	
 
 		try (PreparedStatement preparedStatement = getConnection().prepareStatement(sb.toString())) {
 
@@ -148,6 +158,7 @@ public class IdTypeAzureSqlDAO extends ConnectionSQL implements IdTypeDAO {
 		return results;
 
 	}
+	
 
 	private List<IdTypeDTO> executeQuery(PreparedStatement preparedStatement) {
 

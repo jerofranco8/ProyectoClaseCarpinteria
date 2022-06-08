@@ -1,26 +1,24 @@
 package co.edu.uco.quotes.dto;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import co.edu.uco.crosscutting.util.object.UtilObject;
 import co.edu.uco.crosscutting.util.text.UtilText;
 
 public class InventoryDTO {
 	private int id;
 	private String name;
-	private List<StockDTO> stocks;
+	private CampusDTO campus;
+
 
 	public InventoryDTO() {
 		super();
 		setName(UtilText.EMPTY);
-		setStocks(new ArrayList<StockDTO>());
+		setCampus(new CampusDTO());
 	}
-	public InventoryDTO(int id, String name, List<StockDTO> stocks) {
+	public InventoryDTO(int id, String name, CampusDTO campus) {
 		super();
 		setId(id);
 		setName(name);
-		setStocks(stocks);
+
 	}
 	
 	
@@ -36,12 +34,15 @@ public class InventoryDTO {
 	public void setName(String name) {
 		this.name = name;
 	}
-	public List<StockDTO> getStocks() {
-		return stocks;
+	public CampusDTO getCampus() {
+		return campus;
 	}
-	public void setStocks(List<StockDTO> stocks) {
-		this.stocks = UtilObject.getUtilObject().getDefault(stocks, new ArrayList<StockDTO>());
+	public void setCampus(CampusDTO campus) {
+		this.campus = UtilObject.getUtilObject().getDefault(campus, new CampusDTO());
 	}
+	
+	
+
 	
 	
 }

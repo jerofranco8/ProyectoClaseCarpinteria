@@ -9,7 +9,7 @@ public class RawMaterialDTO {
 	private String name;
 	private String details;
 	private int value;
-	private RawMaterialTypeDTO RawMaterialType;
+	private RawMaterialTypeDTO rawMaterialType;
 	
 	
 	
@@ -55,10 +55,10 @@ public class RawMaterialDTO {
 		this.value =(int) UtilNumeric.getUtilNumeric().getDefault(value);
 	}
 	public RawMaterialTypeDTO getRawMaterialType() {
-		return RawMaterialType;
+		return rawMaterialType;
 	}
 	public void setRawMaterialType(RawMaterialTypeDTO rawMaterialType) {
-		RawMaterialType = UtilObject.getUtilObject().getDefault(rawMaterialType, new RawMaterialTypeDTO());
+		rawMaterialType = UtilObject.getUtilObject().getDefault(rawMaterialType, new RawMaterialTypeDTO());
 	}
 	
 }
