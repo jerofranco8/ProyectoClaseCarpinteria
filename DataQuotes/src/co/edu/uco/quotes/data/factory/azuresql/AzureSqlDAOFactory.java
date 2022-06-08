@@ -48,16 +48,18 @@ public class AzureSqlDAOFactory extends DAOFactory {
 		return new AzureSqlDAOFactory();
 	}
 
+
 	@Override
 	protected void openConnection() {
 
-		String stringConnection = "jdbc:sqlserver://desktop-k0ure42:1433;sqlexpress;databaseName=quotes-db;user=desktop-k0ure42/jerof;password=123456789;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;";
+		
+		String stringConnection = "jdbc:sqlserver://localhost:1433;databaseName=db-Quotes;user=sa;password=1234567890;encrypt=true;trustServerCertificate=true";
 		try {
 			connection = DriverManager.getConnection(stringConnection);
 
 		} catch (SQLException exception) {
 			throw QuotesException.buildTechnicalException(
-					"There was a problem trying to get the connection with SQL server at jdbc:sqlserver://academic-database-server.database.windows.net:1433;database=academic-db;user=academicDmlUser",
+					"Error her jdbc:sqlserver://localhost:1433;databaseName=db-Quotes;user=sa",
 					exception, ExceptionLocation.DATA);
 		} catch (Exception exception) {
 			throw QuotesException.buildTechnicalException(

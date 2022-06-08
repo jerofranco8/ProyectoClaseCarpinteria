@@ -1,7 +1,5 @@
 package co.edu.uco.quotes.dto;
 
-import java.util.ArrayList;
-import java.util.List;
 
 import co.edu.uco.crosscutting.util.object.UtilObject;
 import co.edu.uco.crosscutting.util.text.UtilText;
@@ -21,7 +19,7 @@ public class ClientDTO {
 		setName(UtilText.EMPTY);
 		setIdNumber(UtilText.EMPTY);
 		setIdType(new IdTypeDTO());
-		;
+		
 	}
 	
 	public ClientDTO(int id, String name, IdTypeDTO idType, String idNumber) {

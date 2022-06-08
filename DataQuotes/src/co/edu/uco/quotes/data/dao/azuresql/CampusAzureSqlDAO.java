@@ -17,7 +17,6 @@ import co.edu.uco.quotes.data.dao.CampusDAO;
 import co.edu.uco.quotes.data.dao.connection.ConnectionSQL;
 import co.edu.uco.quotes.dto.CampusDTO;
 import co.edu.uco.quotes.dto.CityDTO;
-import co.edu.uco.quotes.dto.InventoryDTO;
 
 public class CampusAzureSqlDAO extends ConnectionSQL implements CampusDAO {
 

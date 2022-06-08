@@ -53,32 +53,60 @@ public class ClientAzureSqlDAO extends ConnectionSQL implements ClientDAO {
 
 	@Override
 	public void update(ClientDTO client) {
-		// TODO Auto-generated method stub
+		String sql = "UPDATE Client SET name = ?, idType=?, idNumber=?  WHERE id=?";
+
+		try (PreparedStatement preparedStatement = getConnection().prepareStatement(sql)) {
+			preparedStatement.setString(1, client.getName());
+			preparedStatement.setInt(2, client.getIdType().getId());
+			preparedStatement.setString(3, client.getIdNumber());
+			preparedStatement.setInt(4, client.getId());
+			preparedStatement.executeUpdate();
+		} catch (SQLException exception) {
+
+			throw QuotesException.buildTechnicalDataException(
+					"There was a problem trying to update a new Client registry on sql server", exception);
+
+		} catch (Exception exception) {
+
+			throw QuotesException.buildTechnicalDataException(
+					"There was an unexpected problem trying to update Client registry on sql server", exception);
+
+		}	
 		
 	}
 
 	@Override
 	public void delete(int id) {
-		// TODO Auto-generated method stub
+
+		String sql = "DELETE FROM Client WHERE (id=?)";
+
+		try (PreparedStatement preparedStatement = getConnection().prepareStatement(sql)) {
+			preparedStatement.setInt(1,id);
+			
+		} catch (SQLException exception) {
+
+			throw QuotesException.buildTechnicalDataException(
+					"There was a problem trying to delete a Client registry on sql server", exception);
+
+		} catch (Exception exception) {
+
+			throw QuotesException.buildTechnicalDataException(
+					"There was an unexpected problem trying to delete a Client registry on sql server", exception);
+
 		
+		}
 	}
 
 	@Override
 	public List<ClientDTO> find(ClientDTO client) {
-		
-		
-//		private int id;
-//		private String name;
-//		private IdTypeDTO idType;
-//		private String idNumber;
-		
+
 		boolean setWhere = true;
 		List<Object> parameters = new ArrayList<>();
 		List<ClientDTO> results = new ArrayList<ClientDTO>();
 
 		StringBuilder sb = new StringBuilder(SPACE);
 		sb.append("Select id, name, idNumber, idType").append(SPACE);
-		sb.append("From Student ");
+		sb.append("From Client ");
 
 		if (!UtilObject.getUtilObject().isNull(client)) {
 

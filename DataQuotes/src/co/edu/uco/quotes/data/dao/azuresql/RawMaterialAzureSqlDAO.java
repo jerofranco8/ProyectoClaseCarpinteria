@@ -67,6 +67,7 @@ public class RawMaterialAzureSqlDAO extends ConnectionSQL implements RawMaterial
 			preparedStatement.setInt(2, rawMaterial.getRawMaterialType().getId());
 			preparedStatement.setString(3, rawMaterial.getDetails());
 			preparedStatement.setInt(4, rawMaterial.getValue());
+			preparedStatement.setInt(5, rawMaterial.getId());
 			preparedStatement.executeUpdate();
 		} catch (SQLException exception) {
 

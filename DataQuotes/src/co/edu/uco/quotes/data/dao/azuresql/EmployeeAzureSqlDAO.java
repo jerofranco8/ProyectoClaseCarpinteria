@@ -33,13 +33,13 @@ public class EmployeeAzureSqlDAO extends ConnectionSQL implements EmployeeDAO {
 
 	@Override
 	public void create(EmployeeDTO employee) {
-		String sql = "INSERT INTO Employee (name, idType, idNumber, empleType, employeeStatus, campus) VALUES(?,?,?,?,?,?)";
+		String sql = "INSERT INTO Employee (name, idType, idNumber, employeeType, employeeStatus, campus) VALUES(?,?,?,?,?,?)";
 
 		try (PreparedStatement preparedStatement = getConnection().prepareStatement(sql)) {
 			preparedStatement.setString(1, employee.getName());
 			preparedStatement.setInt(2, employee.getIdType().getId());
 			preparedStatement.setString(3, employee.getIdNumber());
-			preparedStatement.setInt(4, employee.getEmpleType().getId());
+			preparedStatement.setInt(4, employee.getEmployeeType().getId());
 			preparedStatement.setInt(5, employee.getEmployeeStatus().getId());
 			preparedStatement.setInt(6, employee.getCampus().getId());
 			preparedStatement.executeUpdate();
@@ -59,7 +59,28 @@ public class EmployeeAzureSqlDAO extends ConnectionSQL implements EmployeeDAO {
 
 	@Override
 	public void update(EmployeeDTO employee) {
-		// TODO Auto-generated method stub
+		String sql = "UPDATE Employee SET name = ?, idType=?, idNumber=?, employeeType=?, employeeStatus=?, campus=?  WHERE id=?";
+
+		try (PreparedStatement preparedStatement = getConnection().prepareStatement(sql)) {
+			preparedStatement.setString(1, employee.getName());
+			preparedStatement.setInt(2, employee.getIdType().getId());
+			preparedStatement.setString(3, employee.getIdNumber());
+			preparedStatement.setInt(4, employee.getEmployeeType().getId());
+			preparedStatement.setInt(5, employee.getEmployeeStatus().getId());
+			preparedStatement.setInt(6, employee.getCampus().getId());
+			preparedStatement.setInt(7, employee.getId());
+			preparedStatement.executeUpdate();
+		} catch (SQLException exception) {
+
+			throw QuotesException.buildTechnicalDataException(
+					"There was a problem trying to update a new Employee registry on sql server", exception);
+
+		} catch (Exception exception) {
+
+			throw QuotesException.buildTechnicalDataException(
+					"There was an unexpected problem trying to update Employee registry on sql server", exception);
+
+		}	
 		
 	}
 
@@ -86,23 +107,15 @@ public class EmployeeAzureSqlDAO extends ConnectionSQL implements EmployeeDAO {
 	}
 
 public List<EmployeeDTO> find(EmployeeDTO client) {
-		
-//	private int id;
-//	private String name;
-//	private IdTypeDTO idType;
-//	private String idNumber;
-//	private EmployeeTypeDTO empleType;
-//	private EmployeeStatusDTO employeeStatus;
-//	private CampusDTO campus;
-	
+
 
 		boolean setWhere = true;
 		List<Object> parameters = new ArrayList<>();
 		List<EmployeeDTO> results = new ArrayList<EmployeeDTO>();
 
 		StringBuilder sb = new StringBuilder(SPACE);
-		sb.append("Select id, name, idNumber, idType, employeeType, employeeStatus, campus").append(SPACE);
-		sb.append("From Student ");
+		sb.append("Select id, name, idType, idNumber, employeeType, employeeStatus, campus").append(SPACE);
+		sb.append("From Employee ");
 
 		if (!UtilObject.getUtilObject().isNull(client)) {
 
@@ -119,14 +132,7 @@ public List<EmployeeDTO> find(EmployeeDTO client) {
 				sb.append("name = ? ");
 				parameters.add(UtilText.trim(client.getName()));
 				setWhere = false;
-			}
-			
-			if (!UtilText.isEmpty(client.getIdNumber())) {
-				sb.append(setWhere ? "WHERE " : "AND ");
-				sb.append("idNumber = ? ");
-				parameters.add(UtilText.trim(client.getIdNumber()));
-				setWhere = false;
-			}			
+			}		
 			
 			if (UtilNumeric.getUtilNumeric().isGreatherThan(client.getIdType().getId(),0)) {
 				sb.append(setWhere ? "WHERE " : "AND ");
@@ -135,10 +141,17 @@ public List<EmployeeDTO> find(EmployeeDTO client) {
 				setWhere = false;
 			}
 			
-			if (UtilNumeric.getUtilNumeric().isGreatherThan(client.getEmpleType().getId(),0)) {
+			if (!UtilText.isEmpty(client.getIdNumber())) {
+				sb.append(setWhere ? "WHERE " : "AND ");
+				sb.append("idNumber = ? ");
+				parameters.add(UtilText.trim(client.getIdNumber()));
+				setWhere = false;
+			}
+			
+			if (UtilNumeric.getUtilNumeric().isGreatherThan(client.getEmployeeType().getId(),0)) {
 				sb.append(setWhere ? "WHERE " : "AND ");
 				sb.append("employeeType = ? ");
-				parameters.add(client.getEmpleType().getId());
+				parameters.add(client.getEmployeeType().getId());
 				setWhere = false;
 			}
 			
@@ -162,7 +175,6 @@ public List<EmployeeDTO> find(EmployeeDTO client) {
 
 		sb.append("ORDER BY name ASC");
 		
-		System.out.println(sb.toString());
 
 		try (PreparedStatement preparedStatement = getConnection().prepareStatement(sb.toString())) {
 
@@ -267,11 +279,12 @@ public List<EmployeeDTO> find(EmployeeDTO client) {
 
 			dto.setId(resultSet.getInt("id"));
 			dto.setName(resultSet.getString("name"));
-			dto.setIdNumber(resultSet.getString("idNumber"));
 			dto.setIdType(idType);
-			dto.setCampus(campus);
+			dto.setIdNumber(resultSet.getString("idNumber"));
 			dto.setEmpleType(employeeType);
 			dto.setEmployeeStatus(employeeStastus);
+			dto.setCampus(campus);
+
 			
 			
 

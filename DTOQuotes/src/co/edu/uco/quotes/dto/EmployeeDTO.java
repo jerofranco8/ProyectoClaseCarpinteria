@@ -9,7 +9,7 @@ public class EmployeeDTO {
 	private String name;
 	private IdTypeDTO idType;
 	private String idNumber;
-	private EmployeeTypeDTO empleoyeType;
+	private EmployeeTypeDTO employeeType;
 	private EmployeeStatusDTO employeeStatus;
 	private CampusDTO campus;
 	
@@ -80,11 +80,11 @@ public class EmployeeDTO {
 	public void setCampus(CampusDTO campus) {
 		this.campus = UtilObject.getUtilObject().getDefault(campus, new CampusDTO());
 	}
-	public EmployeeTypeDTO getEmpleType() {
-		return empleoyeType;
+	public EmployeeTypeDTO getEmployeeType() {
+		return employeeType;
 	}
 	public void setEmpleType(EmployeeTypeDTO empleType) {
-		this.empleoyeType = UtilObject.getUtilObject().getDefault(empleType, new EmployeeTypeDTO());
+		this.employeeType = UtilObject.getUtilObject().getDefault(empleType, new EmployeeTypeDTO());
 	}
 	
 	
