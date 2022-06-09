@@ -17,12 +17,12 @@ public class EmployeeDTO {
 	
 	
 	
-	public EmployeeDTO(int id, String name, IdTypeDTO idType, String idNumber, EmployeeTypeDTO empleType,
+	public EmployeeDTO(int id, String name, IdTypeDTO idType, String idNumber, EmployeeTypeDTO EmployeeType,
 			EmployeeStatusDTO employeeStatus, CampusDTO campus) {
 		super();
 		
 		setCampus(campus);
-		setEmpleType(empleType);
+		setEmployeeType(EmployeeType);
 		setEmployeeStatus(employeeStatus);
 		setId(id);
 		setIdNumber(idNumber);
@@ -34,7 +34,7 @@ public class EmployeeDTO {
 		super();
 		
 		setCampus(new CampusDTO());
-		setEmpleType(new EmployeeTypeDTO());
+		setEmployeeType(new EmployeeTypeDTO());
 		setEmployeeStatus(new EmployeeStatusDTO());
 		setIdNumber(UtilText.EMPTY);
 		setIdType(new IdTypeDTO());
@@ -83,8 +83,8 @@ public class EmployeeDTO {
 	public EmployeeTypeDTO getEmployeeType() {
 		return employeeType;
 	}
-	public void setEmpleType(EmployeeTypeDTO empleType) {
-		this.employeeType = UtilObject.getUtilObject().getDefault(empleType, new EmployeeTypeDTO());
+	public void setEmployeeType(EmployeeTypeDTO EmployeeType) {
+		this.employeeType = UtilObject.getUtilObject().getDefault(EmployeeType, new EmployeeTypeDTO());
 	}
 	
 	

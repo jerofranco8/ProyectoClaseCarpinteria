@@ -281,7 +281,7 @@ public List<EmployeeDTO> find(EmployeeDTO client) {
 			dto.setName(resultSet.getString("name"));
 			dto.setIdType(idType);
 			dto.setIdNumber(resultSet.getString("idNumber"));
-			dto.setEmpleType(employeeType);
+			dto.setEmployeeType(employeeType);
 			dto.setEmployeeStatus(employeeStastus);
 			dto.setCampus(campus);
 

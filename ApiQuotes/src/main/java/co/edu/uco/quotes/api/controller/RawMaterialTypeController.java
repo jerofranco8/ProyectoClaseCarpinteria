@@ -19,10 +19,10 @@ import org.springframework.web.bind.annotation.RestController;
 import co.edu.uco.crosscutting.util.object.UtilObject;
 import co.edu.uco.quotes.api.controller.response.Response;
 import co.edu.uco.quotes.api.controller.validators.Validator;
-import co.edu.uco.quotes.api.controller.validators.rawMaterialType.CreatedRawMaterialTypeValidator;
-import co.edu.uco.quotes.api.controller.validators.rawMaterialType.DeleteRawMaterialTypeValidator;
-import co.edu.uco.quotes.api.controller.validators.rawMaterialType.FindRawMaterialTypeValidator;
-import co.edu.uco.quotes.api.controller.validators.rawMaterialType.UpdateRawMaterialTypeValidator;
+import co.edu.uco.quotes.api.controller.validators.rawmaterialtype.CreatedRawMaterialTypeValidator;
+import co.edu.uco.quotes.api.controller.validators.rawmaterialtype.DeleteRawMaterialTypeValidator;
+import co.edu.uco.quotes.api.controller.validators.rawmaterialtype.FindRawMaterialTypeValidator;
+import co.edu.uco.quotes.api.controller.validators.rawmaterialtype.UpdateRawMaterialTypeValidator;
 import co.edu.uco.quotes.businesslogic.facade.RawMaterialTypeFacade;
 import co.edu.uco.quotes.businesslogic.facade.impl.RawMaterialTypeFacadeImpl;
 import co.edu.uco.quotes.crosscutting.exception.QuotesException;
@@ -126,7 +126,7 @@ public class RawMaterialTypeController {
 	public ResponseEntity<Response<RawMaterialTypeDTO>> delete(@PathVariable("id") int id) {
 		RawMaterialTypeDTO dto = new RawMaterialTypeDTO(id, "");
 		Validator<RawMaterialTypeDTO> validator = new DeleteRawMaterialTypeValidator();
-		List<String> messages = UtilObject.getUtilObject().getDefault(validator.validate(dto), new ArrayList<>());;
+		List<String> messages = UtilObject.getUtilObject().getDefault(validator.validate(dto), new ArrayList<>());
 		Response<RawMaterialTypeDTO> response = new Response<>();
 		ResponseEntity<Response<RawMaterialTypeDTO>> responseEntity;
 		HttpStatus statusCode = HttpStatus.BAD_REQUEST;

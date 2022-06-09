@@ -44,7 +44,7 @@ public class RawMaterialTypeDTO {
 
 		if (UtilText.isEmpty(getName())) {
 
-			validationMessages.add("Name of id type is required");
+			validationMessages.add("Name of RawMaterialType is required");
 
 		} else if (UtilText.getDefault(getName()).length() > 50) {
 

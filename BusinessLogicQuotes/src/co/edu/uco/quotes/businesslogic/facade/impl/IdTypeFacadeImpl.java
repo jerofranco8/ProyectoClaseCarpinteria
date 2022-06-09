@@ -2,7 +2,7 @@ package co.edu.uco.quotes.businesslogic.facade.impl;
 
 import java.util.List;
 
-import co.edu.uco.businesslogic.business.impl.IdTypeBussinesImpl;
+import co.edu.uco.businesslogic.business.impl.IdTypeBusinessImpl;
 import co.edu.uco.quotes.businesslogic.business.IdTypeBusiness;
 import co.edu.uco.quotes.businesslogic.facade.IdTypeFacade;
 import co.edu.uco.quotes.crosscutting.exception.QuotesException;
@@ -21,7 +21,7 @@ public class IdTypeFacadeImpl  implements IdTypeFacade{
 			
 			daoFactory.initTransaction();
 			
-			IdTypeBusiness idTypeBusiness = new IdTypeBussinesImpl(daoFactory);
+			IdTypeBusiness idTypeBusiness = new IdTypeBusinessImpl(daoFactory);
 			idTypeBusiness.create(dto);
 			
 			daoFactory.commitTransaction();
@@ -47,7 +47,7 @@ public class IdTypeFacadeImpl  implements IdTypeFacade{
 			
 			daoFactory.initTransaction();
 			
-			IdTypeBusiness idTypeBusiness = new IdTypeBussinesImpl(daoFactory);
+			IdTypeBusiness idTypeBusiness = new IdTypeBusinessImpl(daoFactory);
 			idTypeBusiness.update(dto);
 			
 			daoFactory.commitTransaction();
@@ -76,7 +76,7 @@ public class IdTypeFacadeImpl  implements IdTypeFacade{
 			
 			daoFactory.initTransaction();
 			
-			IdTypeBusiness idTypeBusiness = new IdTypeBussinesImpl(daoFactory);
+			IdTypeBusiness idTypeBusiness = new IdTypeBusinessImpl(daoFactory);
 			idTypeBusiness.delete(id);
 			
 			daoFactory.commitTransaction();
@@ -105,7 +105,7 @@ public class IdTypeFacadeImpl  implements IdTypeFacade{
 			
 			daoFactory.initTransaction();
 			
-			IdTypeBusiness idTypeBusiness = new IdTypeBussinesImpl(daoFactory);
+			IdTypeBusiness idTypeBusiness = new IdTypeBusinessImpl(daoFactory);
 			return idTypeBusiness.find(dto);
 			
 		} catch (QuotesException exception){

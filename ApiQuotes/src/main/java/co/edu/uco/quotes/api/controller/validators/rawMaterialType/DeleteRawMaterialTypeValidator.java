@@ -1,4 +1,4 @@
-package co.edu.uco.quotes.api.controller.validators.rawMaterialType;
+package co.edu.uco.quotes.api.controller.validators.rawmaterialtype;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -14,7 +14,7 @@ public class DeleteRawMaterialTypeValidator implements Validator<RawMaterialType
 	@Override
 	public List<String> validate(RawMaterialTypeDTO dto) {
 		if (UtilObject.getUtilObject().isNull(dto)) {
-			validationMessages.add("Is not possible to validate Id Type data");
+			validationMessages.add("Is not possible to validate RawMaterialType data");
 		}
 		dto.validateId(validationMessages);
 		return validationMessages;

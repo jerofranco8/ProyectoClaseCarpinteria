@@ -54,11 +54,16 @@ public class RawMaterialDTO {
 	public void setValue(int value) {
 		this.value =(int) UtilNumeric.getUtilNumeric().getDefault(value);
 	}
+
 	public RawMaterialTypeDTO getRawMaterialType() {
 		return rawMaterialType;
 	}
+
 	public void setRawMaterialType(RawMaterialTypeDTO rawMaterialType) {
-		rawMaterialType = UtilObject.getUtilObject().getDefault(rawMaterialType, new RawMaterialTypeDTO());
+		this.rawMaterialType = UtilObject.getUtilObject().getDefault(rawMaterialType, new RawMaterialTypeDTO());
 	}
+	
+	
+
 	
 }

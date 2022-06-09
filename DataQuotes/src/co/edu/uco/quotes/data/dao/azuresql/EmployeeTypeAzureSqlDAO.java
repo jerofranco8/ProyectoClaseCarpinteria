@@ -31,7 +31,7 @@ public class EmployeeTypeAzureSqlDAO extends ConnectionSQL implements EmployeeTy
 	@Override
 	public void create(EmployeeTypeDTO employeeType) {
 
-		String sql = "INSERT INTO EmployeeType (name, salary, function) VALUES(?,?,?)";
+		String sql = "INSERT INTO EmployeeType (name, salary, [function]) VALUES(?,?,?)";
 
 		try (PreparedStatement preparedStatement = getConnection().prepareStatement(sql)) {
 			preparedStatement.setString(1,employeeType.getName());
@@ -53,7 +53,7 @@ public class EmployeeTypeAzureSqlDAO extends ConnectionSQL implements EmployeeTy
 
 	@Override
 	public void update(EmployeeTypeDTO employeeType) {
-		String sql = "UPDATE EmployeeType SET name = ?, salary=?, function=?  WHERE id=?";
+		String sql = "UPDATE EmployeeType SET name = ?, salary=?, [function]=?  WHERE id=?";
 
 		try (PreparedStatement preparedStatement = getConnection().prepareStatement(sql)) {
 			preparedStatement.setString(1, employeeType.getName());
@@ -103,7 +103,7 @@ public class EmployeeTypeAzureSqlDAO extends ConnectionSQL implements EmployeeTy
 		List<EmployeeTypeDTO> results = new ArrayList<EmployeeTypeDTO>();
 
 		StringBuilder sb = new StringBuilder(SPACE);
-		sb.append("Select id, name, salary, function").append(SPACE);
+		sb.append("Select id, name, salary, [function]").append(SPACE);
 		sb.append("From EmployeeType ");
 
 		if (!UtilObject.getUtilObject().isNull(employeeType)) {
@@ -133,7 +133,7 @@ public class EmployeeTypeAzureSqlDAO extends ConnectionSQL implements EmployeeTy
 		
 			if (!UtilText.isEmpty(employeeType.getFunction())) {
 				sb.append(setWhere ? "WHERE " : "AND ");
-				sb.append("function = ? ");
+				sb.append("[function] = ? ");
 				parameters.add(UtilText.trim(employeeType.getFunction()));
 				setWhere = false;
 			}
@@ -141,6 +141,8 @@ public class EmployeeTypeAzureSqlDAO extends ConnectionSQL implements EmployeeTy
 		}
 
 		sb.append("ORDER BY name ASC");
+		
+		System.out.println(sb.toString());
 
 		try (PreparedStatement preparedStatement = getConnection().prepareStatement(sb.toString())) {
 
